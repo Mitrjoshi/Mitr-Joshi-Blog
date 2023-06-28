@@ -24,7 +24,10 @@ https://mitrjoshi-blog.netlify.app/
 # Preview
 
 ![Mitr Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/c494fb1a-21f7-46bc-bbfb-508a24d87a2e)
+
 ![Mitr-Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/61da6602-a18e-4845-bb64-074d595ce071)
+
 ![Mitr-Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/645d6712-2727-4249-b27c-caee3ef560be)
+
 ![Mitr-Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/65f8ded6-5dfb-4ebc-bfa4-2bd09b4e7984)
 
