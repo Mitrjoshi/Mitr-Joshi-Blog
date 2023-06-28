@@ -1,4 +1,4 @@
-# Mitr Joshi - BLog
+# Mitr Joshi - Blog
 
 Whether you're a reader looking for captivating articles or a writer seeking a platform to share your thoughts, Mitr Joshi Blog provides a seamless experience. With its blend of React, Million.js, Firebase, and Tailwind CSS, this project exemplifies the successful fusion of technology and creativity in the realm of web development.
 
@@ -22,3 +22,9 @@ Whether you're a reader looking for captivating articles or a writer seeking a p
 https://mitrjoshi-blog.netlify.app/
 
 # Preview
+
+![Mitr Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/c494fb1a-21f7-46bc-bbfb-508a24d87a2e)
+![Mitr-Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/61da6602-a18e-4845-bb64-074d595ce071)
+![Mitr-Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/645d6712-2727-4249-b27c-caee3ef560be)
+![Mitr-Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/65f8ded6-5dfb-4ebc-bfa4-2bd09b4e7984)
+
