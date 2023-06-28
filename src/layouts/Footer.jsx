@@ -10,7 +10,7 @@ const Footer = () => {
         <p>
           Find an issue with this page?{" "}
           <a
-            href="https://github.com/Mitrjoshi"
+            href="https://github.com/Mitrjoshi/Mitr-Joshi-Blog"
             target="_blank"
             className="text-[#008ae6]"
           >
