@@ -31,3 +31,15 @@ https://mitrjoshi-blog.netlify.app/
 
 ![Mitr-Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/65f8ded6-5dfb-4ebc-bfa4-2bd09b4e7984)
 
+# Run locally  
+
+1. Install dependecies  
+```npm i```
+
+2. Replace firebase api keys
+
+3. Run locally  
+```npm run dev```
+
+4. Build project  
+```npm run build```
