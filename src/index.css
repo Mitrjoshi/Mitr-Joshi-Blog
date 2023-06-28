@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Space Grotesk, -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+    arial, sans-serif;
+  background-color: #111111;
+  color: #e2e8f0;
+  font-size: 16px;
+}
+
+.blog-text {
+  font-family: Space Grotesk, -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+    arial, sans-serif;
+  margin-left: 0.75rem;
+}
+
+.main-content {
+  padding-top: 68px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5b5d60;
+  border-radius: 50px;
+}
+
+.input-field::-webkit-search-cancel-button {
+  appearance: none;
+}
+
+.loader {
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#svg-path-loader-1,
+svg rect {
+  fill: #9e8af9;
+}
+
+.loading-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  background-color: #00000076;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #9e8af9;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* markdown */
+/* max-width */
+@media only screen and (min-width: 800px) {
+  .custom-markdown > h1 {
+    font-size: 28px;
+    margin-top: 1.25rem;
+    color: #9e8af9;
+  }
+  .custom-markdown > h2 {
+    margin-top: 1.25rem;
+    font-size: 25px;
+  }
+  .custom-markdown > h3 {
+    margin-top: 1.25rem;
+    font-size: 22px;
+  }
+  .custom-markdown > h4 {
+    margin-top: 1.25rem;
+    font-size: 18px;
+  }
+  .custom-markdown > h5 {
+    margin-top: 1.25rem;
+    font-size: 16px;
+  }
+}
+
+/* min-width */
+@media only screen and (max-width: 800px) {
+  .custom-markdown > h1 {
+    font-size: 22px;
+    margin-top: 1.25rem;
+    color: #9e8af9;
+  }
+  .custom-markdown > h2 {
+    margin-top: 1.25rem;
+    font-size: 19px;
+  }
+  .custom-markdown > h3 {
+    margin-top: 1.25rem;
+    font-size: 16px;
+  }
+  .custom-markdown > h4 {
+    margin-top: 1.25rem;
+    font-size: 14px;
+  }
+  .custom-markdown > h5 {
+    margin-top: 1.25rem;
+    font-size: 10px;
+  }
+}
+
+.custom-markdown > p > img {
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.custom-markdown p {
+  margin-top: 1.25rem;
+}
+
+.custom-markdown > hr {
+  border-color: #2b2a2c;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.custom-markdown {
+  overflow-x: hidden;
+}
+
+.custom-markdown > pre {
+  background-color: #1d2429;
+  border-radius: 10px;
+  overflow-x: auto;
+  padding: 1rem;
+  font-size: 14px;
+  margin-top: 1.25rem;
+  border: 1px solid #2b2a2c;
+}
+
+.custom-markdown > pre::-webkit-scrollbar {
+  height: 8px;
+}
+
+@media only screen and (min-width: 800px) {
+  .custom-markdown table {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .custom-markdown table {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.custom-markdown table th {
+  background-color: #373737;
+}
+
+.custom-markdown th,
+.custom-markdown td {
+  border: 1px solid #2b2a2c;
+  padding: 8px;
+}
+
+.custom-markdown li:before {
+  content: "\2022"; /* Unicode character for bullet point */
+  margin-right: 0.5em;
+}
+
+.custom-markdown li {
+  margin-top: 1.25rem;
+}
