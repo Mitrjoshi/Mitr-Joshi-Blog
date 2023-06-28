@@ -49,7 +49,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full lg:p-0 px-5 fixed z-50 border-y border-[#2b2a2c] backdrop-blur-[15px]">
+    <div className="w-full lg:p-0 px-5 fixed z-50 border-y border-[#2b2a2c] backdrop-blur-[8px]">
       <div className="h-[68px] flex justify-between items-center max-w-[1200px]  m-auto">
         <Logo />
 
