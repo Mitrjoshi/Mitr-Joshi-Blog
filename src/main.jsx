@@ -8,7 +8,7 @@ import Context from "./utils/Context";
 import { Auth0Provider } from "@auth0/auth0-react";
 import { block } from "million/react";
 
-const AppBlock = /* @optimize */ block(App);
+const AppBlock = block(App);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

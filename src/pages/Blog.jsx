@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate, Link } from "react-router-dom";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import { deleteDoc, doc, collection, getDoc } from "firebase/firestore";
+import { doc, collection, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { solarizedlight } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { useAuth0 } from "@auth0/auth0-react";
 import { BlogHeader, BlogAuthor, BlogContent } from "../components";
 
@@ -37,8 +35,6 @@ const Blog = () => {
   useEffect(() => {
     document.title = `${postDetails?.title}`;
   }, [postDetails]);
-
-  console.log(postDetails.language);
 
   return (
     <div className="max-w-[1000px] m-auto">

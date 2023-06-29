@@ -114,11 +114,8 @@ const Form = () => {
               </form>
             </>
           ) : (
-            <div>
-              <p className="sm:text-[50px] text-[30px]  font-bold  py-5 m-auto text-textColor text-center">
-                You are not authorized for this page{" "}
-                <span className="text-primary">./ </span>
-              </p>
+            <div className="flex h-[80vh] flex-col gap-5 justify-center items-center">
+              <p className="sm:text-[26px]">Loading...</p>
             </div>
           )}
         </>
@@ -128,6 +125,7 @@ const Form = () => {
             You are not authorized for this page{" "}
             <span className="text-primary">./ </span>
           </p>
+          <hr className="border-[#2b2a2c]" />
         </div>
       )}
     </div>

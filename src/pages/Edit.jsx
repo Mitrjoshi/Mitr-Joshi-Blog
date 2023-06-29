@@ -189,11 +189,14 @@ const Edit = () => {
               </form>
             </>
           ) : (
-            <div>
-              <p className="sm:text-[50px] text-[30px]  font-bold  py-5 m-auto text-textColor text-center">
-                You are not authorized for this page{" "}
-                <span className="text-primary">./ </span>
-              </p>
+            <div className="max-w-[1000px] m-auto">
+              <div>
+                <p className="sm:text-[50px] text-[30px]  font-bold  py-5 m-auto text-textColor text-center">
+                  You are not authorized for this page{" "}
+                  <span className="text-primary">./ </span>
+                </p>
+              </div>
+              <hr className="border-[#2b2a2c]" />
             </div>
           )}
         </div>

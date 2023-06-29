@@ -117,25 +117,25 @@ svg rect {
 /* min-width */
 @media only screen and (max-width: 800px) {
   .custom-markdown > h1 {
-    font-size: 22px;
+    font-size: 24px;
     margin-top: 1.25rem;
     color: #9e8af9;
   }
   .custom-markdown > h2 {
     margin-top: 1.25rem;
-    font-size: 19px;
+    font-size: 21px;
   }
   .custom-markdown > h3 {
     margin-top: 1.25rem;
-    font-size: 16px;
+    font-size: 18px;
   }
   .custom-markdown > h4 {
     margin-top: 1.25rem;
-    font-size: 14px;
+    font-size: 16px;
   }
   .custom-markdown > h5 {
     margin-top: 1.25rem;
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
@@ -160,13 +160,18 @@ svg rect {
 }
 
 .custom-markdown > pre {
-  background-color: #1d2429;
+  background-color: #1e293b75;
   border-radius: 10px;
   overflow-x: auto;
   padding: 1rem;
   font-size: 14px;
   margin-top: 1.25rem;
   border: 1px solid #2b2a2c;
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
+    drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .custom-markdown > pre::-webkit-scrollbar {
