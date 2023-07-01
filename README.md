@@ -1,12 +1,12 @@
-# Mitr Joshi - Blog
+# Mitr Joshi - BLog
 
-Mitr Joshi Blog is an impressive web project that showcases a seamless blend of technology to provide an immersive reading experience. Developed using React and Million.js, the blog offers a dynamic and responsive user interface.
+Whether you're a reader looking for captivating articles or a writer seeking a platform to share your thoughts, Mitr Joshi Blog provides a seamless experience. With its blend of React, Million.js, Firebase, and Tailwind CSS, this project exemplifies the successful fusion of technology and creativity in the realm of web development.
 
-Utilizing Firebase as a backend platform, Mitr Joshi Blog efficiently manages the blog content, allowing the creator to upload captivating articles for readers to enjoy. With a focus on delivering a fast and optimized experience, readers can access the blog's content effortlessly.
+Firebase, a robust and scalable backend platform, is utilized for efficient data management, ensuring fast loading times and seamless content updates. The integration with Firebase also enables real-time collaboration features, allowing multiple users to contribute and edit articles simultaneously.
 
-The visual appeal of the blog is enhanced by the implementation of Tailwind CSS, a utility-first CSS framework. This ensures a visually appealing and user-friendly design that enhances the reading experience.
+The visual appeal of the Mitr Joshi Blog is further enhanced by the implementation of Tailwind CSS, a utility-first CSS framework. This enables the creation of stylish and customizable designs, resulting in a visually stunning and user-friendly interface.
 
-Mitr Joshi Blog is a platform where readers can explore captivating articles curated by the creator. Through the use of React, Million.js, Firebase, and Tailwind CSS, this project showcases the successful integration of technology to provide an engaging and enjoyable reading platform.
+Whether you're a reader looking for captivating articles or a writer seeking a platform to share your thoughts, Mitr Joshi Blog provides a seamless experience. With its blend of React, Million.js, Firebase, and Tailwind CSS, this project exemplifies the successful fusion of technology and creativity in the realm of web development.
 
 # Core packages
 
@@ -22,24 +22,3 @@ Mitr Joshi Blog is a platform where readers can explore captivating articles cur
 https://mitrjoshi-blog.netlify.app/
 
 # Preview
-
-![Mitr Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/c494fb1a-21f7-46bc-bbfb-508a24d87a2e)
-
-![Mitr-Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/61da6602-a18e-4845-bb64-074d595ce071)
-
-![Mitr-Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/645d6712-2727-4249-b27c-caee3ef560be)
-
-![Mitr-Joshi - Blog](https://github.com/Mitrjoshi/Mitr-Joshi---Blog/assets/114912151/65f8ded6-5dfb-4ebc-bfa4-2bd09b4e7984)
-
-# Run locally  
-
-1. Install dependecies  
-```npm i```
-
-2. Replace firebase api keys
-
-3. Run locally  
-```npm run dev```
-
-4. Build project  
-```npm run build```
