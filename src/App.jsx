@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Loading } from "./components";
+import Error from "./pages/Error";
 
 const LazyHome = React.lazy(() => import("./pages/Home"));
 const LazyBlog = React.lazy(() => import("./pages/Blog"));
@@ -61,6 +62,7 @@ const App = () => {
             </React.Suspense>
           }
         />
+        <Route path="*" element={<Error />} />
       </Routes>
     </div>
   );

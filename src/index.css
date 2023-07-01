@@ -112,6 +112,9 @@ svg rect {
     margin-top: 1.25rem;
     font-size: 16px;
   }
+  .custom-markdown li {
+    font-size: 1.2rem;
+  }
 }
 
 /* min-width */
@@ -136,6 +139,9 @@ svg rect {
   .custom-markdown > h5 {
     margin-top: 1.25rem;
     font-size: 14px;
+  }
+  .custom-markdown li {
+    font-size: 1rem;
   }
 }
 
@@ -207,5 +213,5 @@ svg rect {
 }
 
 .custom-markdown li {
-  margin-top: 1.25rem;
+  margin-top: 1.1rem;
 }

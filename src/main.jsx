@@ -6,9 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 import { Navbar, Footer } from "./layouts";
 import Context from "./utils/Context";
 import { Auth0Provider } from "@auth0/auth0-react";
-import { block } from "million/react";
-
-const AppBlock = block(App);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -24,7 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <div className="flex flex-col h-[100vh]  justify-between">
             <Navbar />
             <div>
-              <AppBlock />
+              <App />
             </div>
             <Footer />
           </div>

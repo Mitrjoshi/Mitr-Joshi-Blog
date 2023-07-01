@@ -6,13 +6,14 @@ const apiKey = import.meta.env.VITE_FIREBASE_API_KEY;
 const authDomain = import.meta.env.VITE_FIREBASE_AUTH_DOMAIN;
 
 const firebaseConfig = {
+  //your firebase keys here
   apiKey: { apiKey },
   authDomain: { authDomain },
-  projectId: "blog-996cf",
-  storageBucket: "blog-996cf.appspot.com",
-  messagingSenderId: "822052733596",
-  appId: "1:822052733596:web:acdf8073155c982e812359",
-  measurementId: "G-NJ1YJ6N0ZM",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
 };
 
 const app = initializeApp(firebaseConfig);
