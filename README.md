@@ -22,3 +22,6 @@ Whether you're a reader looking for captivating articles or a writer seeking a p
 https://mitrjoshi-blog.netlify.app/
 
 # Preview
+![Mitr Joshi - Blog and 3 more pages - Personal - Microsoft​ Edge 28-06-2023 21_35_04](https://github.com/Mitrjoshi/Mitr-Joshi-Blog/assets/114912151/6ced1e21-2f70-43ed-929a-3cfcc91b9055)
+![Editing Mitr-Joshi---Blog_README md at main · Mitrjoshi_Mitr-Joshi---Blog · GitHub and 3 more pages - Personal - Microsoft​ Edge 28-06-2023 21_36_08](https://github.com/Mitrjoshi/Mitr-Joshi-Blog/assets/114912151/f349c66d-90e7-45fe-88de-5b3ff3102fdf)
+![Editing Mitr-Joshi---Blog_README md at main · Mitrjoshi_Mitr-Joshi---Blog · GitHub and 3 more pages - Personal - Microsoft​ Edge 28-06-2023 21_36_15](https://github.com/Mitrjoshi/Mitr-Joshi-Blog/assets/114912151/f10d6cd6-11e5-4c01-a414-ed7b7d7f51c4)
